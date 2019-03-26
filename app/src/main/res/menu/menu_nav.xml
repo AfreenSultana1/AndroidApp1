@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title=""
+        app:showAsAction="always"
+        android:orderInCategory="11">
+        <menu>
+
+        <item
+            android:id="@+id/action_deleteContact"
+            android:icon="@drawable/delete"
+            android:title="Delete"
+            app:showAsAction="ifRoom"></item>
+
+
+
+        <!--<item-->
+            <!--android:id="@+id/action_settings"-->
+            <!--android:icon="@drawable/ic_settings_black_24dp"-->
+            <!--android:title="Settings"-->
+            <!--app:showAsAction="ifRoom"></item>-->
+
+    </menu>
+
+    </item>
+</menu>
